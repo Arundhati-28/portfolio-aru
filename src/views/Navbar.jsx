@@ -13,7 +13,7 @@ const Navbar = () => {
 	return (
 		<div className="text-primary flex justify-between w-full gap-4 p-4 h-20 bg-bgprim fixed selection:bg-primary selection:text-bgprim z-20">
 			<div className="flex w-full">
-				<p className="text-4xl font-poppins">&lt;Kadambini/&gt;</p>
+				<p className="text-4xl font-poppins">&lt;Arundhati/&gt;</p>
 			</div>
 			{/* Desktop Navbar */}
 			<div className="pt-1 md:flex justify-around text-lg flex-wrap w-full h-full hidden cursor-pointer">

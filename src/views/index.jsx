@@ -11,7 +11,7 @@ function Index() {
 		<div name='home' className="w-full h-full  bg-bgprim  flex flex-col items-center justify-center pt-20 selection:bg-primary selection:text-bgprim">
 			<main className="w-full h-full  bg-bgprim flex  items-center md:justify-center flex-wrap  px-4  xl:justify-between xl:pt-2 xl:pb-16">
 				<div className="text-primary  font-poppins text-center xl:pb-4 xl:pl-[5rem] flex flex-col justify-start items-center xl:items-start ">
-					<div className="text-7xl pt-32 pb-4">Kadambini Trivedi,</div>
+					<div className="lg:text-5xl pt-32 pb-4">Arundhati Singh,</div>
 					<TypeAnimation
 						sequence={['building websites', 10000]}
 						speed={10}
@@ -30,7 +30,7 @@ function Index() {
 						</Link>
 					</div>
 				</div>
-				<div className=''><Lottie animationData={logo} className=" md:block  inset-0   h-[40rem]  w-full md:w-auto" />
+				<div className=''><Lottie animationData={logo} className=" md:block  inset-0   lg:h-[34rem]  w-full md:w-auto" />
 				
 				</div>
 			</main>

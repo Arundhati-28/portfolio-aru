@@ -1,15 +1,16 @@
 import React from 'react';
 import c from '../assets/c.png';
 import java from '../assets/java.png';
-import astro from '../assets/astro.png';
-import me from '../assets/me.jpg';
+import astro from '../assets/mysql.png';
+import me from '../assets/aru.jpeg';
 import html from '../assets/html.png';
 import css from '../assets/css.png';
 import js from '../assets/javascript.png';
 import react from '../assets/react.png';
-import tw from '../assets/tailwind.png';
+import tw from '../assets/supabase.jpg';
 import next from '../assets/next.svg';
-import firebase from '../assets/firebase.png';
+import deluge from '../assets/delugelogo.jpeg';
+import firebase from '../assets/python.svg.png';
 import { MdDownload } from 'react-icons/md';
 function About() {
 	return (
@@ -27,20 +28,21 @@ function About() {
 						</div>
 						<div className="w-3/4 text-poppins text-xl flex flex-col gap-4 ">
 							<div>
-								Greetings! I am Kadambini Trivedi, 2nd year student at VIT
-								Chennai pursuing Electronics & Computer Engineering. I am an
-								aspiring full-stack developer.
+								Greetings! I am Arundhati Singh, currently a 3rd year student at VIT
+								Chennai pursuing Computer Science & Engineering. I am an
+								aspiring front-end developer.
 							</div>
 							<div>
 								{' '}
-								I see myself as a Front-end Developer with knowledge in HTML,
-								CSS, React and the fascinating arena of Java Script and Astro.
+								With a strong academic background and a proven track record of developing 
+								innovative software solutions, my technical skills include proficiency in 
+								Python, Java, and web technologies, complemented by hands-on experience in design and content
+								creation.
 							</div>
 							<div>
-								I am always eager to learn new skills and technologies, and to
-								collaborate with other developers and engineers who share my
-								vision and values. My core competencies include web development,
-								problem-solving, creativity, and teamwork.
+								I thrive in collaborative environments and am passionate about
+leveraging technology for social good, as evidenced by my work on impactful
+projects
 							</div>
 						</div>
 					</div>
@@ -69,9 +71,9 @@ function About() {
 							</div>
 							<div className=" text-primary flex flex-col items-center">
 								<div className="">
-									<img src={next} alt="" className="bg-white p-1 h-12 w-10" />
+									<img src={deluge} alt="" className="bg-white p-1 h-12 w-10" />
 								</div>
-								<div>Next</div>
+								<div>Deluge</div>
 							</div>
 							<div className=" text-primary flex flex-col items-center">
 								<div className="">
@@ -83,19 +85,19 @@ function About() {
 								<div className="">
 									<img src={tw} alt="" className="h-12 w-10" />
 								</div>
-								<div>Tailwind</div>
+								<div>Supabase</div>
 							</div>
 							<div className=" text-primary flex flex-col items-center">
 								<div className="">
 									<img src={astro} alt="" className="h-12 w-10" />
 								</div>
-								<div>Astro</div>
+								<div>SQL</div>
 							</div>
 							<div className=" text-primary flex flex-col items-center">
 								<div className="">
 									<img src={firebase} alt="" className="h-12 w-10" />
 								</div>
-								<div>Firebase</div>
+								<div>Python</div>
 							</div>
 							<div className=" text-primary flex flex-col items-center">
 								<div className="">
@@ -111,14 +113,14 @@ function About() {
 							</div>
 						</div>
 					</div>
-					<div className="flex flex-col justify-center items-center w-full pt-6">
+					{/* <div className="flex flex-col justify-center items-center w-full pt-6">
 						<button className="border-2 border-primary text-primary flex items-center  my-8 px-4 py-3 mx-auto hover:bg-black">
 							Download Resume
 							<span className="mt-1">
 								<MdDownload />
 							</span>
 						</button>
-					</div>
+					</div> */}
 				</div>
 			</div>
 		</>
