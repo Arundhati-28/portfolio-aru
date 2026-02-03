@@ -2,7 +2,7 @@ import React from 'react';
 import c from '../assets/c.png';
 import java from '../assets/java.png';
 import astro from '../assets/mysql.png';
-import me from '../assets/aru.jpeg';
+import me from '../assets/aru1.jpeg';
 import html from '../assets/html.png';
 import css from '../assets/css.png';
 import js from '../assets/javascript.png';
