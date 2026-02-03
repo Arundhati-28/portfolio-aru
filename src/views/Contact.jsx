@@ -17,7 +17,7 @@ const Contact = () => {
         </p>
 
         <a
-          href="https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME/"
+          href="https://www.linkedin.com/in/arundhati-singh-67061a28a/"
           target="_blank"
           rel="noopener noreferrer"
           className="border-2 border-primary text-primary px-6 py-3 hover:bg-black transition duration-300"
